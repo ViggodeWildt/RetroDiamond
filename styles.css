@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: synthwave;
+    scroll-behavior: smooth;
+    text-shadow: 2px 2px 4px #000;
+}
+
+body {
+    background-color: #111; 
+    color: #eee; 
+    margin: 0;
+    padding: 0;
+    background-image: url('achtergrond.png');
+    background-repeat: no-repeat;
+    background-size:100%;     
+}
+
+header{
+    background:#222;
+    width:100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+  
+.background{
+    background: #5a1370;
+}
+  
+.header-container{
+    width:80%;
+    margin:0 auto;
+}
+
+.header-background{
+    height: 150px;
+}
+  
+.smallcontainer{
+   width:50%;
+   margin:0 auto;
+}
+  
+.header-flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+  
+nav{
+    display:flex;
+    gap:40px;
+    text-transform:uppercase
+}
+  
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    line-height:50px;
+}
+  
+.navbar{
+    color:white ;
+    font-family:Pixelify Sans;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.logo{
+    width:8%
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.main-img{
+    width:40%;
+    border-radius: 20px;
+}
+
+
+h1 {
+    font-size: 4em;
+    color: #f0f;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 20px;
+    font-family: Pixelify Sans;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    font-size: 3em;
+    color: #f0f;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 20px;
+    font-family: Pixelify Sans;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+.preorder{
+    width:160px;
+    height:60px;
+    font-size:1em;
+    border-radius:50px;
+    background-color:rgb(180, 180, 19);
+    margin-top:20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: pulse 1.5s infinite;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.games{
+    size:150px, 100px;
+}
+
+footer {
+    width:100%;
+    background-color: #222;
+    text-align: center;
+}
+
+.adress{
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.copyright{
+    padding-top:20px;
+}
+
+.flex{
+    display:flex;
+    justify-content:center;
+    gap:2%;
+    margin-top: 2%;
+    padding-bottom: 20px;
+}
+
+.games{
+    border-radius:10px;
+}
+
+.icons{
+    height:50px;
+}
+
+/* de aftelklok */
+canvas {
+    display: block;
+    margin: 20px auto;
+}
+#countdown-text {
+    font-size: 2em;
+    margin-top: 10px;
+}
+/* klaar */
+
+/* animaties */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+/* klaar */
+
+/* font-face */
+@font-face {
+    font-family: synthwave;
+    src: url(indieground-freebies-font-commando/commando.ttf);
+}
+/* klaar */
